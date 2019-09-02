@@ -1,5 +1,6 @@
 html {
 	background: black;
+  overflow: hidden;
 }
 
 #div1 {
@@ -7,6 +8,8 @@ html {
   left: 0px;
   top: 0px;
   z-index: -1;
+  width:1000px;
+  display:none;
 }
 
 #div2 {
@@ -14,18 +17,38 @@ html {
   left: 1000px;
   top: 0px;
   z-index: -1;
+  width:800px;
+  display:none;
 }
 
 #div3 {
   position: absolute;
   right: 0px;
-  top: 200px;
+  top: 300px;
   z-index: -1;
+  width:500px;
+  display:none;
 }
 
 #div4 {
   position: absolute;
-  left: 300px;
-  top: 0px;
+  left: 400px;
+  top: 250px;
   z-index: -1;
+  width:800px;
+  display:none;
 }
+
+.paragraph {
+  position: absolute;
+  top: 100px;
+  left:700px;
+  height:150px;
+  width:300px;
+  border:1px 
+  solid #ccc;
+  font:16px/26px helvetica, helvetica, Serif;overflow:auto;
+  color:white;
+  padding-left: .5em;
+}
+

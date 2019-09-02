@@ -39,16 +39,19 @@ html {
   display:none;
 }
 
-.paragraph {
+#div5 {
   position: absolute;
-  top: 100px;
-  left:700px;
   height:150px;
   width:300px;
-  border:1px 
-  solid #ccc;
+  left: 700px;
+  top: 150px;
+  z-index: -1;
+  width:300px;
+  display:none;
+  border:1px solid #fff;
   font:16px/26px helvetica, helvetica, Serif;overflow:auto;
   color:white;
   padding-left: .5em;
 }
+
 

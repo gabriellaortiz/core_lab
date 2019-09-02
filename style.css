@@ -1,0 +1,20 @@
+a {
+	font-family: helvetica;
+	font-size: 40px;
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+.center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+  word-spacing: 30px;
+  text-align: center;
+}

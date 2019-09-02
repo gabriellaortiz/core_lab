@@ -52,6 +52,7 @@ html {
   font:16px/26px helvetica, helvetica, Serif;overflow:auto;
   color:white;
   padding-left: .5em;
+    display:none;
 }
 
 

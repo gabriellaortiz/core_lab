@@ -1,7 +1,7 @@
 p {
 	color: white;
 	text-align: center;
-	font-family: times new roman;
+	font-family: roboto;
 }
 body {
 	background: black;
@@ -13,7 +13,7 @@ body {
   margin-top: -50px;
   margin-left: -100px;
 }
-p .title {
+p .time {
 	font-family: roboto;
 	font-size: 11px;
 

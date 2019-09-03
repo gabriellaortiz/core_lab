@@ -1,3 +1,9 @@
+.constraints {
+  font-family: helvetica;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
 a {
 	font-family: helvetica;
 	font-size: 40px;
